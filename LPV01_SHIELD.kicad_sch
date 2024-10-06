@@ -192,6 +192,246 @@
 				)
 			)
 		)
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
 			(pin_names
 				(offset 1.016) hide)
@@ -7486,7 +7726,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 38.1) (xy 367.03 38.1)
+			(xy 360.68 -87.63) (xy 363.22 -87.63)
 		)
 		(stroke
 			(width 0)
@@ -7846,7 +8086,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 45.72) (xy 367.03 45.72)
+			(xy 360.68 -80.01) (xy 363.22 -80.01)
 		)
 		(stroke
 			(width 0)
@@ -7856,7 +8096,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 40.64) (xy 367.03 40.64)
+			(xy 360.68 -85.09) (xy 363.22 -85.09)
 		)
 		(stroke
 			(width 0)
@@ -7956,7 +8196,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 48.26) (xy 367.03 48.26)
+			(xy 360.68 -77.47) (xy 363.22 -77.47)
 		)
 		(stroke
 			(width 0)
@@ -8076,7 +8316,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 50.8) (xy 367.03 50.8)
+			(xy 360.68 -74.93) (xy 363.22 -74.93)
 		)
 		(stroke
 			(width 0)
@@ -8426,7 +8666,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 43.18) (xy 367.03 43.18)
+			(xy 360.68 -82.55) (xy 363.22 -82.55)
 		)
 		(stroke
 			(width 0)
@@ -9416,7 +9656,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 48.26) (xy 339.09 48.26)
+			(xy 332.74 -77.47) (xy 335.28 -77.47)
 		)
 		(stroke
 			(width 0)
@@ -10256,7 +10496,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 50.8) (xy 339.09 50.8)
+			(xy 332.74 -74.93) (xy 335.28 -74.93)
 		)
 		(stroke
 			(width 0)
@@ -10288,7 +10528,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 367.03 40.64 0)
+		(at 363.22 -85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10312,7 +10552,7 @@
 	)
 	(hierarchical_label "D2-"
 		(shape input)
-		(at 367.03 45.72 0)
+		(at 363.22 -80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10432,7 +10672,7 @@
 	)
 	(hierarchical_label "D1-"
 		(shape input)
-		(at 336.55 50.8 180)
+		(at 332.74 -74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10444,7 +10684,7 @@
 	)
 	(hierarchical_label "VBUS2"
 		(shape input)
-		(at 367.03 43.18 0)
+		(at 363.22 -82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10492,7 +10732,7 @@
 	)
 	(hierarchical_label "D1+"
 		(shape input)
-		(at 367.03 38.1 0)
+		(at 363.22 -87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10576,7 +10816,7 @@
 	)
 	(hierarchical_label "VBUS1"
 		(shape input)
-		(at 336.55 48.26 180)
+		(at 332.74 -77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10684,7 +10924,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 367.03 50.8 0)
+		(at 363.22 -74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10708,7 +10948,7 @@
 	)
 	(hierarchical_label "D2+"
 		(shape input)
-		(at 367.03 48.26 0)
+		(at 363.22 -77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10753,6 +10993,165 @@
 			(justify left)
 		)
 		(uuid "ff069406-90c7-4bfc-9e8f-c798f7201a48")
+	)
+	(symbol
+		(lib_id "Power_Management:MIC2026-1xM")
+		(at 398.78 -46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0130ba16-d4a6-44fe-962a-0db155c7bc92")
+		(property "Reference" "U14"
+			(at 398.78 -62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC2026-1xM"
+			(at 398.78 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 398.78 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2026-MIC2076-Dual-Channel-Power-Distribution-Switch-DS20006443A.pdf"
+			(at 398.78 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8"
+			(at 398.78 -46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "ecfe0f9f-769d-40ef-a1d8-7df59f462ce3")
+		)
+		(pin "8"
+			(uuid "cb08c2c1-b3a1-4d2a-8713-4f14104b4f8d")
+		)
+		(pin "3"
+			(uuid "b7161096-37e5-493e-9f0c-d1f4f77e3473")
+		)
+		(pin "1"
+			(uuid "a0d4c196-7634-4951-a73b-ec5c9d7c3dd7")
+		)
+		(pin "6"
+			(uuid "3b600f46-d9f5-4873-a945-817c8abdcdbd")
+		)
+		(pin "4"
+			(uuid "663aa818-daf5-41c8-876c-d444a2a20cc1")
+		)
+		(pin "7"
+			(uuid "4ef96003-dd3b-4b38-bff7-e5fa3f3fd705")
+		)
+		(pin "2"
+			(uuid "8275d70f-a47d-4551-8d3f-6f2c8d6e0eee")
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "U14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 513.08 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01575011-c48d-4770-8194-561af14c9cac")
+		(property "Reference" "J16"
+			(at 515.62 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 515.62 175.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
+			(at 513.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 513.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 513.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fc49fbd-039c-4ade-8b01-bcc2b5dffbb2")
+		)
+		(pin "2"
+			(uuid "4529615d-ce60-4867-918b-de467206f068")
+		)
+		(pin "3"
+			(uuid "3457fb23-104f-4f45-a636-f6feebdec0b9")
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -11045,7 +11444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 130.81 90.17 0)
 			(effects
 				(font
@@ -12943,7 +13342,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:USB1035-GF-P-0-B-B")
-		(at 339.09 38.1 0)
+		(at 335.28 -87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12952,7 +13351,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d8d66a1-8a64-48a4-a0ad-a3f46df750c1")
 		(property "Reference" "J12"
-			(at 351.79 30.48 0)
+			(at 347.98 -95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12960,15 +13359,15 @@
 			)
 		)
 		(property "Value" "USB1035-GF-P-0-B-B"
-			(at 351.79 33.02 0)
+			(at 347.98 -92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "USB1035GFP0BB"
-			(at 360.68 35.56 0)
+		(property "Footprint" "SamacSys_Parts:USB1035GFP0BB"
+			(at 356.87 -90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12978,7 +13377,7 @@
 			)
 		)
 		(property "Datasheet" "https://gct.co/connector/usb1035"
-			(at 360.68 38.1 0)
+			(at 356.87 -87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12988,7 +13387,7 @@
 			)
 		)
 		(property "Description" "USB Connectors USB A Skt, Dual Top TH R/A, GF, BLK, No ground, W/stake, tray"
-			(at 339.09 38.1 0)
+			(at 335.28 -87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12997,7 +13396,7 @@
 			)
 		)
 		(property "Description_1" "USB Connectors USB A Skt, Dual Top TH R/A, GF, BLK, No ground, W/stake, tray"
-			(at 360.68 40.64 0)
+			(at 356.87 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13007,7 +13406,7 @@
 			)
 		)
 		(property "Height" "16.25"
-			(at 360.68 43.18 0)
+			(at 356.87 -82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13017,7 +13416,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at 360.68 45.72 0)
+			(at 356.87 -80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13027,7 +13426,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "USB1035-GF-P-0-B-B"
-			(at 360.68 48.26 0)
+			(at 356.87 -77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13037,7 +13436,7 @@
 			)
 		)
 		(property "Mouser Part Number" "640-USB1035GFP0BB"
-			(at 360.68 50.8 0)
+			(at 356.87 -74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13047,7 +13446,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB1035-GF-P-0-B-B?qs=KUoIvG%2F9IlZdvtWwZEQX0g%3D%3D"
-			(at 360.68 53.34 0)
+			(at 356.87 -72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13057,7 +13456,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 360.68 55.88 0)
+			(at 356.87 -69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13067,7 +13466,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 360.68 58.42 0)
+			(at 356.87 -67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13324,6 +13723,79 @@
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 513.08 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "462be670-7369-43f1-bf38-9e243572df5d")
+		(property "Reference" "J15"
+			(at 515.62 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 515.62 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal"
+			(at 513.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 513.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 513.08 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b3232db-3065-4983-9ea4-25d146a6c2f0")
+		)
+		(pin "2"
+			(uuid "a4ca7602-2f1a-4da5-8526-c375915222b0")
+		)
+		(pin "3"
+			(uuid "4008613b-d086-4068-a064-1bb34a3e2cc8")
+		)
+		(instances
+			(project ""
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -14167,7 +14639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 46.99 168.91 0)
 			(effects
 				(font
@@ -15798,7 +16270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 46.99 50.8 0)
 			(effects
 				(font
@@ -16814,7 +17286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 46.99 90.17 0)
 			(effects
 				(font
@@ -17167,6 +17639,186 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:USB1035-GF-P-0-B-B")
+		(at 335.28 -55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d46a660-e5e9-4cce-88b6-277b2eedcf40")
+		(property "Reference" "J13"
+			(at 347.98 -63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB1035-GF-P-0-B-B"
+			(at 347.98 -60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:USB1035GFP0BB"
+			(at 356.87 -58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/connector/usb1035"
+			(at 356.87 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Connectors USB A Skt, Dual Top TH R/A, GF, BLK, No ground, W/stake, tray"
+			(at 335.28 -55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "USB Connectors USB A Skt, Dual Top TH R/A, GF, BLK, No ground, W/stake, tray"
+			(at 356.87 -53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "16.25"
+			(at 356.87 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+			(at 356.87 -48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB1035-GF-P-0-B-B"
+			(at 356.87 -45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "640-USB1035GFP0BB"
+			(at 356.87 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB1035-GF-P-0-B-B?qs=KUoIvG%2F9IlZdvtWwZEQX0g%3D%3D"
+			(at 356.87 -40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 356.87 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 356.87 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "ac839792-fe71-46a8-a988-03bdb667a907")
+		)
+		(pin "B2"
+			(uuid "87284dd7-01c5-41d5-b1e6-ac86bcb5f49e")
+		)
+		(pin "B4"
+			(uuid "6751b1c0-6a7f-4050-9ad7-dedc88d84593")
+		)
+		(pin "4"
+			(uuid "ffd6481e-9202-4283-8664-53897ce6b604")
+		)
+		(pin "A2"
+			(uuid "af1f2fd0-51b4-458d-b7ad-f27554856d54")
+		)
+		(pin "A1"
+			(uuid "b00b3220-87d8-463d-b328-a63cd59da7da")
+		)
+		(pin "1"
+			(uuid "91925ced-ba96-4b4a-961a-98dcf893c3ad")
+		)
+		(pin "3"
+			(uuid "54df0d2e-4738-4017-8d76-18e6c4a5b97a")
+		)
+		(pin "A4"
+			(uuid "70995a1b-e7f6-42e7-99da-d609e82b81cd")
+		)
+		(pin "A3"
+			(uuid "a1dcdd20-a77d-4abb-a32e-2bf2af622be6")
+		)
+		(pin "B3"
+			(uuid "a5bf5db7-f52c-405d-b9d1-3d9415053b03")
+		)
+		(pin "2"
+			(uuid "bfadf609-49d8-476e-82dc-d4fe698eeb83")
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Relay_SolidState:TLP175A")
 		(at 55.88 157.48 0)
 		(unit 1)
@@ -17399,7 +18051,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 377.19 88.9 0)
 			(effects
 				(font
@@ -17605,7 +18257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 130.81 50.8 0)
 			(effects
 				(font
@@ -17880,7 +18532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 46.99 129.54 0)
 			(effects
 				(font
@@ -18229,7 +18881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 130.81 168.91 0)
 			(effects
 				(font
@@ -18297,7 +18949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 			(at 130.81 129.54 0)
 			(effects
 				(font
@@ -18478,6 +19130,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Management:MIC2026-1xM")
+		(at 400.05 -15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "debb926d-3db7-4a19-852c-2e9e6e3e5261")
+		(property "Reference" "U15"
+			(at 400.05 -30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC2026-1xM"
+			(at 400.05 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 400.05 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2026-MIC2076-Dual-Channel-Power-Distribution-Switch-DS20006443A.pdf"
+			(at 400.05 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8"
+			(at 400.05 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4752741c-6c9b-4e1e-981b-760812edefa7")
+		)
+		(pin "8"
+			(uuid "66c1a4b4-7a2d-497a-a3e4-98d949587c5a")
+		)
+		(pin "3"
+			(uuid "2dacdc4a-25d1-4626-9162-a1c444ac361e")
+		)
+		(pin "1"
+			(uuid "3d7fff7a-7312-4b85-8196-468b82a5c074")
+		)
+		(pin "6"
+			(uuid "04bd8280-a20a-49af-b08d-b0860f7eb6d1")
+		)
+		(pin "4"
+			(uuid "d96a4607-e728-4d11-bd6f-03761b0a8a49")
+		)
+		(pin "7"
+			(uuid "ef3be0e7-d6e7-4368-9101-e7c090de6ae4")
+		)
+		(pin "2"
+			(uuid "7caf7c30-16be-43c1-a7ae-f876b129e538")
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "U15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 105.41 33.02 0)
 		(unit 1)
@@ -18620,7 +19358,7 @@
 	)
 	(symbol
 		(lib_id "Power_Management:MIC2026-1xM")
-		(at 340.36 92.71 0)
+		(at 397.51 -80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18629,7 +19367,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5b33098-8684-49f7-bb32-82c99eadeeb4")
 		(property "Reference" "U9"
-			(at 340.36 77.47 0)
+			(at 397.51 -95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18637,7 +19375,7 @@
 			)
 		)
 		(property "Value" "MIC2026-1xM"
-			(at 340.36 80.01 0)
+			(at 397.51 -92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18645,7 +19383,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 340.36 92.71 0)
+			(at 397.51 -80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18654,7 +19392,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2026-MIC2076-Dual-Channel-Power-Distribution-Switch-DS20006443A.pdf"
-			(at 340.36 92.71 0)
+			(at 397.51 -80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18663,7 +19401,7 @@
 			)
 		)
 		(property "Description" "Dual-channel, high side, power distribution switch, 2.7V-5.5V, Active High Output, SOIC-8"
-			(at 340.36 92.71 0)
+			(at 397.51 -80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18774,6 +19512,186 @@
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:USB1035-GF-P-0-B-B")
+		(at 337.82 -24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e65b82bd-cb09-418f-b9d2-63a4e4f39ca5")
+		(property "Reference" "J14"
+			(at 350.52 -31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB1035-GF-P-0-B-B"
+			(at 350.52 -29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:USB1035GFP0BB"
+			(at 359.41 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://gct.co/connector/usb1035"
+			(at 359.41 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Connectors USB A Skt, Dual Top TH R/A, GF, BLK, No ground, W/stake, tray"
+			(at 337.82 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "USB Connectors USB A Skt, Dual Top TH R/A, GF, BLK, No ground, W/stake, tray"
+			(at 359.41 -21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "16.25"
+			(at 359.41 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
+			(at 359.41 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB1035-GF-P-0-B-B"
+			(at 359.41 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "640-USB1035GFP0BB"
+			(at 359.41 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB1035-GF-P-0-B-B?qs=KUoIvG%2F9IlZdvtWwZEQX0g%3D%3D"
+			(at 359.41 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 359.41 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 359.41 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "B1"
+			(uuid "36fc2da7-afec-4524-bb5e-055fef0d6020")
+		)
+		(pin "B2"
+			(uuid "a0493b10-8491-4c7f-ab33-83a9b87ae7cc")
+		)
+		(pin "B4"
+			(uuid "8a2cc631-a947-4a83-a5a1-e4c289af57f1")
+		)
+		(pin "4"
+			(uuid "0835a3da-1301-456a-befc-8d36ba4cf206")
+		)
+		(pin "A2"
+			(uuid "f0f60edd-3e32-4c7f-a553-7fde8c323fd7")
+		)
+		(pin "A1"
+			(uuid "6a016dbb-6564-4144-a51e-0050b8fa9d7e")
+		)
+		(pin "1"
+			(uuid "ffb59818-4294-467e-acdb-cfe51b56129e")
+		)
+		(pin "3"
+			(uuid "2d122e9c-3e74-4956-8441-c4d0ef52a759")
+		)
+		(pin "A4"
+			(uuid "5cab09f9-5595-410c-914a-2a6e0ccc773a")
+		)
+		(pin "A3"
+			(uuid "31faf44e-73f9-4400-b76e-5926bdf9e8ec")
+		)
+		(pin "B3"
+			(uuid "3c4f4a4a-4b6e-451e-88d2-8b041c97e5b9")
+		)
+		(pin "2"
+			(uuid "0cc2a750-1b7d-4d7d-87d0-9833eabe1b2f")
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "J14")
 					(unit 1)
 				)
 			)
