@@ -619,6 +619,10 @@
     [
       "235a657c-2000-4f74-9092-d8e0f0a5ea32",
       "Główny"
+    ],
+    [
+      "99d81570-47cc-4de8-bd02-58f2b6ea1aca",
+      "Power_distribution"
     ]
   ],
   "text_variables": {}
