@@ -1,0 +1,32 @@
+Reference,Value,Footprint,LCSC part number
+C1,"100u, 50V",Capacitor_THT:CP_Radial_D6.3mm_P2.50mm, C160200
+C2,"10u, 50V",Capacitor_SMD:C_0805_2012Metric,
+C3,"10u, 50V",Capacitor_SMD:C_0805_2012Metric,
+C4,"10u, 50V",Capacitor_SMD:C_0805_2012Metric,
+C5,"100n, 50V",Capacitor_SMD:C_0603_1608Metric,
+C6,1n,Capacitor_SMD:C_0603_1608Metric,
+C7,2u2,Capacitor_SMD:C_0603_1608Metric,
+C8,1u,Capacitor_SMD:C_0603_1608Metric,
+C9,22p,Capacitor_SMD:C_0603_1608Metric,
+C10,22u,Capacitor_SMD:C_0805_2012Metric,
+C11,22u,Capacitor_SMD:C_0805_2012Metric,
+C12,22u,Capacitor_SMD:C_0805_2012Metric,
+C13,22u,Capacitor_SMD:C_0805_2012Metric,
+D1,LED,LED_SMD:LED_0603_1608Metric,
+J1,Conn_01x02_Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical, C124375
+J2,Conn_01x02_Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical, C124375
+J3,Conn_01x02_Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical, C124375
+J4,Conn_01x02_Pin,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical, C124375
+L1,4u7,HK:Inductor_IHLP3232DZER4R7M11_HK, C845059
+R1,300k,Resistor_SMD:R_0603_1608Metric,
+R2,10k,Resistor_SMD:R_0603_1608Metric,
+R3,10k,Resistor_SMD:R_0603_1608Metric,
+R4,51k,Resistor_SMD:R_0603_1608Metric,
+R5,0,Resistor_SMD:R_0603_1608Metric,
+R6,10k,Resistor_SMD:R_0603_1608Metric,
+R7,11k,Resistor_SMD:R_0603_1608Metric,
+R8,0,Resistor_SMD:R_0603_1608Metric,
+R9,0,Resistor_SMD:R_0603_1608Metric,
+R10,100k,Resistor_SMD:R_0603_1608Metric,
+R11,1k,Resistor_SMD:R_0603_1608Metric,
+U1,MP2491C,HK:QFN-13_HK, C3187970
