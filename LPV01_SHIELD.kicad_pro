@@ -623,6 +623,14 @@
     [
       "99d81570-47cc-4de8-bd02-58f2b6ea1aca",
       "Power_distribution"
+    ],
+    [
+      "d4abdc1d-30ec-42d0-9d29-446571cc57b4",
+      "USB_hub"
+    ],
+    [
+      "bd9cb392-e7f9-4c99-9924-5e1544e553e5",
+      "USART"
     ]
   ],
   "text_variables": {}
