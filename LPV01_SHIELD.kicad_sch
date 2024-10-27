@@ -6828,9 +6828,9 @@
 			)
 		)
 	)
-	(global_label "D23"
+	(global_label "D9"
 		(shape input)
-		(at 21.59 73.66 180)
+		(at 22.86 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6840,7 +6840,7 @@
 		)
 		(uuid "0296d28d-bc0e-4411-9982-6508cd848685")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9158 73.66 0)
+			(at 17.3953 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,9 +6872,9 @@
 			)
 		)
 	)
-	(global_label "D18"
+	(global_label "D4"
 		(shape input)
-		(at 21.59 58.42 180)
+		(at 22.86 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6884,7 +6884,7 @@
 		)
 		(uuid "0bf958f4-3aba-4609-aae8-a33c61758982")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9158 58.42 0)
+			(at 17.3953 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7136,9 +7136,9 @@
 			)
 		)
 	)
-	(global_label "D11"
+	(global_label "D8"
 		(shape input)
-		(at 21.59 31.75 180)
+		(at 22.86 26.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7148,7 +7148,7 @@
 		)
 		(uuid "603cb0e0-8a00-473b-a689-08f1b1faf3dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9158 31.75 0)
+			(at 17.3953 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7224,9 +7224,9 @@
 			)
 		)
 	)
-	(global_label "D22"
+	(global_label "D5"
 		(shape input)
-		(at 21.59 68.58 180)
+		(at 22.86 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7236,7 +7236,7 @@
 		)
 		(uuid "8a3c8d0f-ef22-4d3d-8cf0-5143cc392d01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9158 68.58 0)
+			(at 17.3953 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,9 +7246,9 @@
 			)
 		)
 	)
-	(global_label "D12"
+	(global_label "D3"
 		(shape input)
-		(at 21.59 36.83 180)
+		(at 22.86 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7258,7 +7258,7 @@
 		)
 		(uuid "91de562e-369c-4348-9534-2554519aab19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9158 36.83 0)
+			(at 17.3953 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,9 +7356,9 @@
 			)
 		)
 	)
-	(global_label "D19"
+	(global_label "D11"
 		(shape input)
-		(at 21.59 63.5 180)
+		(at 22.86 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7368,7 +7368,7 @@
 		)
 		(uuid "cb45bfcc-60fa-4a11-97a7-e93b3a96a2df")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9158 63.5 0)
+			(at 16.1858 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,9 +7422,9 @@
 			)
 		)
 	)
-	(global_label "D10"
+	(global_label "D2"
 		(shape input)
-		(at 21.59 26.67 180)
+		(at 22.86 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7434,7 +7434,7 @@
 		)
 		(uuid "d75f0767-c10c-4f24-8e96-875c7e7fafbd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9158 26.67 0)
+			(at 17.3953 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7510,9 +7510,9 @@
 			)
 		)
 	)
-	(global_label "D21"
+	(global_label "D10"
 		(shape input)
-		(at 21.59 41.91 180)
+		(at 22.86 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7522,7 +7522,7 @@
 		)
 		(uuid "f0cd1ebb-b9d6-444b-8198-04f7d5a755fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.9158 41.91 0)
+			(at 16.1858 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15932,8 +15932,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TLP521-4XSM")
-		(at 41.91 76.2 0)
-		(mirror x)
+		(at 41.91 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15941,7 +15940,7 @@
 		(dnp no)
 		(uuid "e45b6d25-9f0e-4e2b-8aca-77dec9e19909")
 		(property "Reference" "Q102"
-			(at 55.118 51.816 0)
+			(at 55.118 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15949,7 +15948,7 @@
 			)
 		)
 		(property "Value" "TLP521-4XSM"
-			(at 54.61 54.356 0)
+			(at 54.864 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15957,7 +15956,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TLP5214XSM"
-			(at 63.5 78.74 0)
+			(at 63.5 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15967,85 +15966,6 @@
 			)
 		)
 		(property "Datasheet" "http://isocom.com/wp-content/uploads/2018/03/dd93208-small-tlp521-1_2-4-240817.pdf"
-			(at 63.5 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "OPTOISO 5.3KV 4CH TRANS 16SMD"
-			(at 41.91 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "OPTOISO 5.3KV 4CH TRANS 16SMD"
-			(at 63.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.6"
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Isocom"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLP521-4XSM"
-			(at 63.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 63.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 63.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
 			(at 63.5 58.42 0)
 			(effects
 				(font
@@ -16055,8 +15975,87 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "OPTOISO 5.3KV 4CH TRANS 16SMD"
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "OPTOISO 5.3KV 4CH TRANS 16SMD"
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.6"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Isocom"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLP521-4XSM"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "Arrow Price/Stock" ""
-			(at 63.5 55.88 0)
+			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17102,8 +17101,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TLP521-4XSM")
-		(at 41.91 44.45 0)
-		(mirror x)
+		(at 41.91 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17119,7 +17117,7 @@
 			)
 		)
 		(property "Value" "TLP521-4XSM"
-			(at 54.356 22.098 0)
+			(at 54.864 22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17127,7 +17125,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TLP5214XSM"
-			(at 63.5 46.99 0)
+			(at 63.5 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17137,85 +17135,6 @@
 			)
 		)
 		(property "Datasheet" "http://isocom.com/wp-content/uploads/2018/03/dd93208-small-tlp521-1_2-4-240817.pdf"
-			(at 63.5 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "OPTOISO 5.3KV 4CH TRANS 16SMD"
-			(at 41.91 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "OPTOISO 5.3KV 4CH TRANS 16SMD"
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.6"
-			(at 63.5 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Isocom"
-			(at 63.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLP521-4XSM"
-			(at 63.5 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 63.5 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 63.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
 			(at 63.5 26.67 0)
 			(effects
 				(font
@@ -17225,8 +17144,87 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "OPTOISO 5.3KV 4CH TRANS 16SMD"
+			(at 41.91 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "OPTOISO 5.3KV 4CH TRANS 16SMD"
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.6"
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Isocom"
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLP521-4XSM"
+			(at 63.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 63.5 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "Arrow Price/Stock" ""
-			(at 63.5 24.13 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
