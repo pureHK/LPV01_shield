@@ -2779,6 +2779,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "SamacSys_Parts:TLP521-4XSM"
 			(pin_names
 				(offset 0.762)
@@ -6724,7 +6806,491 @@
 		)
 		(uuid "fe7b4504-7861-4029-873d-09a8301b69f2")
 	)
-	(hierarchical_label "D19"
+	(global_label "D11"
+		(shape bidirectional)
+		(at 40.64 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00f25f99-505c-4589-9ece-01b006c83bfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8545 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D23"
+		(shape input)
+		(at 21.59 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0296d28d-bc0e-4411-9982-6508cd848685")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9158 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D13"
+		(shape input)
+		(at 49.53 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04151ad9-941a-49e8-9a4e-3978276dc2b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.8558 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D18"
+		(shape input)
+		(at 21.59 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bf958f4-3aba-4609-aae8-a33c61758982")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9158 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D8"
+		(shape bidirectional)
+		(at 40.64 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "149e0711-ab6a-40c8-bc8b-5db00dc7d6b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.064 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D4"
+		(shape bidirectional)
+		(at 58.42 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "230feb65-150b-4d00-9545-0951fa7cf574")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.996 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D21"
+		(shape bidirectional)
+		(at 40.64 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2fe16d6a-2bbf-4a69-882b-1b0008eb1729")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8545 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D20"
+		(shape bidirectional)
+		(at 58.42 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34b95d02-a7c8-4c9f-a294-6ba2acaa4d05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.2055 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D3"
+		(shape bidirectional)
+		(at 58.42 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35d6ce09-5e0b-4ddf-9472-0d0180dd9849")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.996 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D18"
+		(shape bidirectional)
+		(at 58.42 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36f1c2c8-5d32-4252-b827-47e253858a2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.2055 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape bidirectional)
+		(at 29.21 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "389c0fca-426e-4203-8157-685afa9c926f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.5173 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape bidirectional)
+		(at 29.21 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3ede2088-b1e3-4de0-853a-5cc7d4e0f0e3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.3684 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D0"
+		(shape bidirectional)
+		(at 58.42 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40ab482c-1825-4793-b7d4-6643da5672ef")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.996 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D13"
+		(shape bidirectional)
+		(at 40.64 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5654a9-f1d0-42f3-a7af-9e6e1df2e497")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8545 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape bidirectional)
+		(at 46.99 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a6477a2-1e11-4443-a37d-d3994b4e5d2b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.6827 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D11"
+		(shape input)
+		(at 21.59 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "603cb0e0-8a00-473b-a689-08f1b1faf3dc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9158 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D1"
+		(shape bidirectional)
+		(at 27.94 182.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61d1cd14-dd02-41f7-9e77-7d3745b62262")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.364 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D0"
+		(shape bidirectional)
+		(at 27.94 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f1b22da-66c4-4dda-bb4c-ff4e5bc5ed2d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.364 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D7"
+		(shape bidirectional)
+		(at 40.64 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86ece8e1-9edb-4aed-ad74-fa4155af0437")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.064 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D22"
+		(shape input)
+		(at 21.59 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a3c8d0f-ef22-4d3d-8cf0-5143cc392d01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9158 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D12"
+		(shape input)
+		(at 21.59 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91de562e-369c-4348-9534-2554519aab19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9158 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D12"
+		(shape bidirectional)
+		(at 40.64 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2bfbc4d-d509-4bcd-a2c3-fb87c710cd82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8545 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D19"
 		(shape bidirectional)
 		(at 58.42 114.3 0)
 		(fields_autoplaced yes)
@@ -6734,11 +7300,43 @@
 			)
 			(justify left)
 		)
-		(uuid "13180f7f-96b4-42a2-bc6f-f12940ca3a80")
+		(uuid "a2e2485d-7e6d-4a3a-9552-446c03375a3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.2055 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(hierarchical_label "D10"
-		(shape input)
-		(at 22.86 26.67 180)
+	(global_label "D5"
+		(shape bidirectional)
+		(at 58.42 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b16f8a4a-6423-443e-a28f-3cba03b0d73f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.996 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape bidirectional)
+		(at 29.21 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6746,7 +7344,237 @@
 			)
 			(justify right)
 		)
-		(uuid "13ad3b50-6e5c-407b-97d6-3a952c89a560")
+		(uuid "bbaa89d6-c7ac-4fb0-89aa-6be0b2fbb325")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.364 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D19"
+		(shape input)
+		(at 21.59 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb45bfcc-60fa-4a11-97a7-e93b3a96a2df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9158 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D22"
+		(shape bidirectional)
+		(at 40.64 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d009f0ae-1194-4a04-b8bd-90d94ada1e48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8545 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D23"
+		(shape bidirectional)
+		(at 40.64 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1cd4731-1ab5-4390-9db3-29ed704ac887")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8545 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D10"
+		(shape input)
+		(at 21.59 26.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d75f0767-c10c-4f24-8e96-875c7e7fafbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9158 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D9"
+		(shape bidirectional)
+		(at 40.64 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "de4fce4e-b6ce-45d1-82d4-6a1c4b7fd8c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.064 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D6"
+		(shape bidirectional)
+		(at 58.42 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e341dce0-dfdb-4fdb-bc91-82b2f8c9bec7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.996 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D10"
+		(shape bidirectional)
+		(at 40.64 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea74c040-d9f5-4952-9f72-3ae658fb8d44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.8545 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D21"
+		(shape input)
+		(at 21.59 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0cd1ebb-b9d6-444b-8198-04f7d5a755fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.9158 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D1"
+		(shape bidirectional)
+		(at 58.42 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f419a153-c641-4659-9fdb-bc2b59d145d1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.996 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D2"
+		(shape bidirectional)
+		(at 58.42 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc68ccfa-50a7-43b4-a032-455847ed5c36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.996 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "OUT8"
 		(shape input)
@@ -6760,30 +7588,6 @@
 		)
 		(uuid "14296a2c-c70b-466c-8274-85ce9aecbf42")
 	)
-	(hierarchical_label "D13"
-		(shape input)
-		(at 49.53 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1613eaf7-2f00-4eb0-b19a-eee550ae8396")
-	)
-	(hierarchical_label "D18"
-		(shape bidirectional)
-		(at 58.42 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1c1268bb-a563-4eba-b30d-1331e9715cd0")
-	)
 	(hierarchical_label "OUT6"
 		(shape output)
 		(at 158.75 96.52 0)
@@ -6795,30 +7599,6 @@
 			(justify left)
 		)
 		(uuid "2102c7c8-7df6-49d4-8d85-58afbdee0735")
-	)
-	(hierarchical_label "MOSI"
-		(shape bidirectional)
-		(at 46.99 163.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2584d3d0-85e6-4d80-80f8-95b893eae2a3")
-	)
-	(hierarchical_label "D1"
-		(shape bidirectional)
-		(at 27.94 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "265f3686-355b-4048-b884-c8bdd58ab21d")
 	)
 	(hierarchical_label "OUT1"
 		(shape input)
@@ -6844,42 +7624,6 @@
 		)
 		(uuid "336e53aa-c71c-4250-a618-9ccf13259ed0")
 	)
-	(hierarchical_label "MISO"
-		(shape bidirectional)
-		(at 29.21 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39a789bf-c77b-409d-8ff6-03d0d3027cf7")
-	)
-	(hierarchical_label "D22"
-		(shape input)
-		(at 22.86 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c6d9287-67d7-4bed-bda0-5eb5b12f4f56")
-	)
-	(hierarchical_label "D7"
-		(shape bidirectional)
-		(at 40.64 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3d22fc38-b008-4a14-ba5a-0e8283890e5e")
-	)
 	(hierarchical_label "O1"
 		(shape input)
 		(at 96.52 49.53 180)
@@ -6903,30 +7647,6 @@
 			(justify left)
 		)
 		(uuid "4d8a9ca3-0a0a-4c98-990b-20cfca2eb2b0")
-	)
-	(hierarchical_label "D20"
-		(shape bidirectional)
-		(at 58.42 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4ea9292b-b773-48b1-a14f-df03fcabd585")
-	)
-	(hierarchical_label "D12"
-		(shape input)
-		(at 22.86 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4ec59a8a-23ad-423f-b3c2-0ba2691c3574")
 	)
 	(hierarchical_label "O2"
 		(shape output)
@@ -6964,18 +7684,6 @@
 		)
 		(uuid "5536ae27-c136-4447-bf87-085cb87278a3")
 	)
-	(hierarchical_label "D3"
-		(shape bidirectional)
-		(at 58.42 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5aa639cf-0a83-4670-b819-8a1be4d65bc0")
-	)
 	(hierarchical_label "O5"
 		(shape output)
 		(at 68.58 60.96 0)
@@ -6987,42 +7695,6 @@
 			(justify left)
 		)
 		(uuid "61cc67f7-cdaa-4129-8ed0-7bd180f453eb")
-	)
-	(hierarchical_label "D23"
-		(shape bidirectional)
-		(at 40.64 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62592855-fb53-433b-92e6-ba3b4e593552")
-	)
-	(hierarchical_label "D21"
-		(shape bidirectional)
-		(at 40.64 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6a2ca1bb-a752-400a-8cb7-c9f320f86b29")
-	)
-	(hierarchical_label "D2"
-		(shape bidirectional)
-		(at 58.42 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6cd6ebe1-615a-4676-91c8-425dd65ea3f8")
 	)
 	(hierarchical_label "O6"
 		(shape input)
@@ -7047,18 +7719,6 @@
 			(justify left)
 		)
 		(uuid "6ffdf37d-866f-46bb-86d4-b62dfc3d518e")
-	)
-	(hierarchical_label "D11"
-		(shape bidirectional)
-		(at 40.64 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "71fd7914-533d-48a7-83e0-a425f3ff019d")
 	)
 	(hierarchical_label "O5"
 		(shape input)
@@ -7156,42 +7816,6 @@
 		)
 		(uuid "953d8a7d-a559-4c39-b7fc-c882f888aa31")
 	)
-	(hierarchical_label "D11"
-		(shape input)
-		(at 22.86 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a035e9e0-02de-462c-a4b6-1adc12fe5fdb")
-	)
-	(hierarchical_label "D19"
-		(shape input)
-		(at 22.86 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a36f8306-ce98-40c9-91e2-af305e1222b2")
-	)
-	(hierarchical_label "SCK"
-		(shape bidirectional)
-		(at 29.21 163.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a88ff10b-4b51-44a3-ad6b-242a218b99f7")
-	)
 	(hierarchical_label "O4"
 		(shape output)
 		(at 68.58 44.45 0)
@@ -7203,42 +7827,6 @@
 			(justify left)
 		)
 		(uuid "ab3e1794-33dd-403d-b828-2dbf0e6732d8")
-	)
-	(hierarchical_label "D12"
-		(shape bidirectional)
-		(at 40.64 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "abb33300-eff0-490c-a550-9e138b6524a0")
-	)
-	(hierarchical_label "D23"
-		(shape input)
-		(at 22.86 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b45b2a5a-affd-4c1f-94db-d78ea87fa03f")
-	)
-	(hierarchical_label "D8"
-		(shape bidirectional)
-		(at 40.64 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b52f8607-d3a7-4dba-b8ac-7faf997b129b")
 	)
 	(hierarchical_label "OUT4"
 		(shape output)
@@ -7252,30 +7840,6 @@
 		)
 		(uuid "c7395edb-3842-479f-af1c-8c5f4b5f6cfe")
 	)
-	(hierarchical_label "D4"
-		(shape bidirectional)
-		(at 58.42 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c7c3ee2c-c6e5-4988-9dd1-4ec4b3cd472e")
-	)
-	(hierarchical_label "D5"
-		(shape bidirectional)
-		(at 58.42 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c9ea59e7-4bcb-4f28-bdae-d2da952151ec")
-	)
 	(hierarchical_label "O4"
 		(shape input)
 		(at 214.63 49.53 180)
@@ -7287,18 +7851,6 @@
 			(justify right)
 		)
 		(uuid "cd044357-2ffa-43ce-b054-dbb40f9e0b12")
-	)
-	(hierarchical_label "D22"
-		(shape bidirectional)
-		(at 40.64 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d1517b57-ed12-4e43-80ce-2f410306d4cd")
 	)
 	(hierarchical_label "O3"
 		(shape output)
@@ -7324,30 +7876,6 @@
 		)
 		(uuid "d3ad904e-d6d9-4a77-8d45-2f99508a3e85")
 	)
-	(hierarchical_label "D18"
-		(shape input)
-		(at 22.86 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d7a6b2a9-9d32-4cc6-a1d4-f647a87b3277")
-	)
-	(hierarchical_label "D10"
-		(shape bidirectional)
-		(at 40.64 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de165721-0cb9-4abb-a3df-55390d1f8926")
-	)
 	(hierarchical_label "OUT4"
 		(shape input)
 		(at 266.7 34.29 180)
@@ -7372,30 +7900,6 @@
 		)
 		(uuid "e2aad7e0-68f6-4311-87b2-3221eea98e8d")
 	)
-	(hierarchical_label "D1"
-		(shape bidirectional)
-		(at 58.42 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e9b86f62-ee74-4550-bbe3-e9321184973a")
-	)
-	(hierarchical_label "RESET"
-		(shape bidirectional)
-		(at 29.21 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e9c998d9-25da-4e22-a17b-35f0268a1ce5")
-	)
 	(hierarchical_label "OUT5"
 		(shape output)
 		(at 119.38 96.52 0)
@@ -7407,30 +7911,6 @@
 			(justify left)
 		)
 		(uuid "ea823028-18a2-497f-b7d6-0f072bc22fc0")
-	)
-	(hierarchical_label "D0"
-		(shape bidirectional)
-		(at 58.42 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ec956ad8-99b9-4b5d-9898-f71865d4dde3")
-	)
-	(hierarchical_label "D13"
-		(shape bidirectional)
-		(at 40.64 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ef8c8a7f-f4e3-4935-b124-15651e731cca")
 	)
 	(hierarchical_label "OUT7"
 		(shape output)
@@ -7456,42 +7936,6 @@
 		)
 		(uuid "f22df288-ae9a-4cb1-aa17-f35b4c29fea4")
 	)
-	(hierarchical_label "D21"
-		(shape input)
-		(at 22.86 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2c049dc-6aa1-4715-a58c-3bde50d76a78")
-	)
-	(hierarchical_label "D0"
-		(shape bidirectional)
-		(at 27.94 180.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f63a1068-0ddc-4e43-9174-38618609db82")
-	)
-	(hierarchical_label "D9"
-		(shape bidirectional)
-		(at 40.64 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f7b31936-92ba-4f98-a86a-fa60e4a4ff3a")
-	)
 	(hierarchical_label "OUT7"
 		(shape input)
 		(at 266.7 41.91 180)
@@ -7515,18 +7959,6 @@
 			(justify left)
 		)
 		(uuid "fec4685d-c73f-4984-93fa-52065efc834a")
-	)
-	(hierarchical_label "D6"
-		(shape bidirectional)
-		(at 58.42 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff069406-90c7-4bfc-9e8f-c798f7201a48")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8284,7 +8716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MicroMELF"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 195.58 91.44 0)
 			(effects
 				(font
@@ -9171,7 +9603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MicroMELF"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 234.95 38.1 0)
 			(effects
 				(font
@@ -10243,6 +10675,134 @@
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 105.41 165.1 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f67a81-0e3f-4380-b275-3207e508f846")
+		(property "Reference" "H4"
+			(at 107.95 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 107.95 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 105.41 149.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51d049b7-370e-47fc-8766-4b8d3f61609a")
+		(property "Reference" "H1"
+			(at 107.95 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 107.95 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 105.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 105.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -11569,7 +12129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MicroMELF"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 116.84 38.1 0)
 			(effects
 				(font
@@ -12591,7 +13151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MicroMELF"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 156.21 38.1 0)
 			(effects
 				(font
@@ -12960,7 +13520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MicroMELF"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 234.95 91.44 0)
 			(effects
 				(font
@@ -13388,7 +13948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MicroMELF"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 156.21 91.44 0)
 			(effects
 				(font
@@ -13783,6 +14343,70 @@
 			(project ""
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 105.41 154.94 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b136d243-d2d2-448d-b258-cf971b9a2cfc")
+		(property "Reference" "H2"
+			(at 107.95 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 107.95 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 105.41 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14835,7 +15459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MicroMELF"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 195.58 38.1 0)
 			(effects
 				(font
@@ -15308,16 +15932,16 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TLP521-4XSM")
-		(at 41.91 58.42 0)
+		(at 41.91 76.2 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e45b6d25-9f0e-4e2b-8aca-77dec9e19909")
 		(property "Reference" "Q102"
-			(at 54.61 50.8 0)
+			(at 55.118 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15325,7 +15949,7 @@
 			)
 		)
 		(property "Value" "TLP521-4XSM"
-			(at 54.61 53.34 0)
+			(at 54.61 54.356 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15333,7 +15957,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TLP5214XSM"
-			(at 63.5 55.88 0)
+			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15343,85 +15967,6 @@
 			)
 		)
 		(property "Datasheet" "http://isocom.com/wp-content/uploads/2018/03/dd93208-small-tlp521-1_2-4-240817.pdf"
-			(at 63.5 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "OPTOISO 5.3KV 4CH TRANS 16SMD"
-			(at 41.91 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "OPTOISO 5.3KV 4CH TRANS 16SMD"
-			(at 63.5 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.6"
-			(at 63.5 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Isocom"
-			(at 63.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLP521-4XSM"
-			(at 63.5 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 63.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -15431,8 +15976,87 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "OPTOISO 5.3KV 4CH TRANS 16SMD"
+			(at 41.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "OPTOISO 5.3KV 4CH TRANS 16SMD"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.6"
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Isocom"
+			(at 63.5 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLP521-4XSM"
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 63.5 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "Arrow Price/Stock" ""
-			(at 63.5 78.74 0)
+			(at 63.5 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15763,6 +16387,70 @@
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 105.41 160.02 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ed0ed32a-6849-45f7-b35f-5e5237f85a1c")
+		(property "Reference" "H3"
+			(at 107.95 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 107.95 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -16202,7 +16890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MicroMELF"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 116.84 91.44 0)
 			(effects
 				(font
@@ -16414,16 +17102,16 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:TLP521-4XSM")
-		(at 41.91 26.67 0)
+		(at 41.91 44.45 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fa9682a2-ec0c-482c-bb3d-d80668dd129c")
 		(property "Reference" "Q101"
-			(at 54.61 19.05 0)
+			(at 55.118 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16431,7 +17119,7 @@
 			)
 		)
 		(property "Value" "TLP521-4XSM"
-			(at 54.61 21.59 0)
+			(at 54.356 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16439,7 +17127,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:TLP5214XSM"
-			(at 63.5 24.13 0)
+			(at 63.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16449,85 +17137,6 @@
 			)
 		)
 		(property "Datasheet" "http://isocom.com/wp-content/uploads/2018/03/dd93208-small-tlp521-1_2-4-240817.pdf"
-			(at 63.5 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "OPTOISO 5.3KV 4CH TRANS 16SMD"
-			(at 41.91 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "OPTOISO 5.3KV 4CH TRANS 16SMD"
-			(at 63.5 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.6"
-			(at 63.5 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Isocom"
-			(at 63.5 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLP521-4XSM"
-			(at 63.5 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 63.5 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
 			(at 63.5 44.45 0)
 			(effects
 				(font
@@ -16537,8 +17146,87 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "OPTOISO 5.3KV 4CH TRANS 16SMD"
+			(at 41.91 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "OPTOISO 5.3KV 4CH TRANS 16SMD"
+			(at 63.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.6"
+			(at 63.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Isocom"
+			(at 63.5 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TLP521-4XSM"
+			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 63.5 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 		(property "Arrow Price/Stock" ""
-			(at 63.5 46.99 0)
+			(at 63.5 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
