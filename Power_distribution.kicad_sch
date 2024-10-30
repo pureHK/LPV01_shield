@@ -3016,8 +3016,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 99.06 43.18 0)
-		(mirror x)
+		(at 99.06 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3025,7 +3024,7 @@
 		(dnp no)
 		(uuid "0a56d1c5-cff0-4ec5-9737-bf203d5ecd18")
 		(property "Reference" "J11"
-			(at 101.6 43.1801 0)
+			(at 101.6 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +3033,7 @@
 			)
 		)
 		(property "Value" "PWR_input"
-			(at 101.6 40.6401 0)
+			(at 101.6 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3042,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_2-G_1x02_P5.00mm_Horizontal"
-			(at 99.06 43.18 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3052,7 +3051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 43.18 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3061,7 +3060,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 99.06 43.18 0)
+			(at 99.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
