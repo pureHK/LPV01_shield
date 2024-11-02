@@ -1,4 +1,4 @@
-23932614568678459
+23936074152110085
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -84819,6 +84819,13 @@ mouse-bite-2mm-slot
 0
 0
 Panelization
+mouse-bite-2mmx5mm-slot
+
+
+0
+0
+0
+Panelization
 mouse-bite-3mm-slot
 
 
@@ -89354,6 +89361,13 @@ Variable Resistor
 0
 3
 3
+SamacSys_Parts
+TLP5214XSM
+16SMD
+Phototransistor
+0
+16
+16
 SamacSys_Parts
 TO270P460X1020X2008-3P
 TO-220_16

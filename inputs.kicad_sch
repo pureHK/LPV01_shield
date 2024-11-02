@@ -4052,7 +4052,7 @@
 	)
 	(global_label "D6"
 		(shape output)
-		(at 207.01 82.55 0)
+		(at 207.01 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4062,7 +4062,7 @@
 		)
 		(uuid "461ea2ea-5c02-43a8-83dd-e9896252e1b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.4747 82.55 0)
+			(at 212.4747 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4096,7 @@
 	)
 	(global_label "D12"
 		(shape output)
-		(at 207.01 90.17 0)
+		(at 207.01 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4106,7 +4106,7 @@
 		)
 		(uuid "748d70ee-10e4-4bfc-96e3-0b3dea96a7f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.6842 90.17 0)
+			(at 213.6842 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4118,7 @@
 	)
 	(global_label "D18"
 		(shape output)
-		(at 207.01 74.93 0)
+		(at 207.01 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4128,7 +4128,7 @@
 		)
 		(uuid "76a57652-82f2-4bac-b8db-3d21ebfe67d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.6842 74.93 0)
+			(at 213.6842 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4162,7 @@
 	)
 	(global_label "D21"
 		(shape output)
-		(at 207.01 67.31 0)
+		(at 207.01 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4172,7 +4172,7 @@
 		)
 		(uuid "ff77a1d1-768c-48b6-b8b2-376221410027")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.6842 67.31 0)
+			(at 213.6842 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4452,7 +4452,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 64.77 270)
+		(at 189.23 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4460,7 +4460,7 @@
 		(dnp no)
 		(uuid "13edb46e-ddbd-4729-837e-b9e5bb5fc5c0")
 		(property "Reference" "R53"
-			(at 184.404 63.5 90)
+			(at 184.404 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4468,7 +4468,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 194.056 63.5 90)
+			(at 194.056 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4476,7 +4476,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.23 62.992 90)
+			(at 189.23 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4485,7 +4485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 64.77 0)
+			(at 189.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4494,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 64.77 0)
+			(at 189.23 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5190,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 80.01 270)
+		(at 189.23 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5198,7 +5198,7 @@
 		(dnp no)
 		(uuid "428bbc9c-aacb-4ff8-ad8c-2000c1d64bfa")
 		(property "Reference" "R51"
-			(at 184.404 78.74 90)
+			(at 184.404 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5206,7 +5206,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 194.056 78.74 90)
+			(at 194.056 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5214,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.23 78.232 90)
+			(at 189.23 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5223,7 +5223,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 80.01 0)
+			(at 189.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +5232,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 80.01 0)
+			(at 189.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +5768,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:TCMT4100")
-		(at 157.48 82.55 0)
+		(at 157.48 74.93 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5776,7 +5776,7 @@
 		(dnp no)
 		(uuid "6f970332-bd27-48b2-ad1f-32f29a32d712")
 		(property "Reference" "U4"
-			(at 165.1 81.788 0)
+			(at 165.1 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5784,7 @@
 			)
 		)
 		(property "Value" "TCMT4100"
-			(at 157.48 76.2 0)
+			(at 157.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5793,7 +5793,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 157.48 90.17 0)
+			(at 157.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,7 +5802,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/84181/tcmt4100.pdf"
-			(at 157.48 83.82 0)
+			(at 157.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5812,7 +5812,7 @@
 			)
 		)
 		(property "Description" "Quad Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS), SOP-16"
-			(at 157.48 82.55 0)
+			(at 157.48 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6056,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:TCMT4100")
-		(at 157.48 74.93 0)
+		(at 157.48 82.55 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6064,7 +6064,7 @@
 		(dnp no)
 		(uuid "8a69df0a-17d1-4fe0-a363-dabeaa82c727")
 		(property "Reference" "U4"
-			(at 165.1 73.914 0)
+			(at 165.1 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6072,7 @@
 			)
 		)
 		(property "Value" "TCMT4100"
-			(at 157.48 68.58 0)
+			(at 157.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6081,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 157.48 82.55 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6090,7 +6090,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/84181/tcmt4100.pdf"
-			(at 157.48 76.2 0)
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6100,7 @@
 			)
 		)
 		(property "Description" "Quad Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS), SOP-16"
-			(at 157.48 74.93 0)
+			(at 157.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6167,7 +6167,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x08")
-		(at 60.96 105.41 180)
+		(at 60.96 102.87 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6175,7 +6176,7 @@
 		(dnp no)
 		(uuid "8b80daf5-22d0-4b45-9538-4f06e35f1d11")
 		(property "Reference" "J9"
-			(at 60.96 92.202 0)
+			(at 60.96 92.456 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6184,7 @@
 			)
 		)
 		(property "Value" "Inputs"
-			(at 60.96 91.44 0)
+			(at 60.96 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,7 +6193,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-8-3.5-H_1x08_P3.50mm_Horizontal"
-			(at 60.96 105.41 0)
+			(at 60.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6201,7 +6202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 105.41 0)
+			(at 60.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6211,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 60.96 105.41 0)
+			(at 60.96 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +7044,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:TCMT4100")
-		(at 157.48 90.17 0)
+		(at 157.48 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7051,7 +7052,7 @@
 		(dnp no)
 		(uuid "c2015091-85e0-44a0-b2e4-bee4a0b12a4e")
 		(property "Reference" "U4"
-			(at 164.846 89.408 0)
+			(at 164.846 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7059,7 +7060,7 @@
 			)
 		)
 		(property "Value" "TCMT4100"
-			(at 157.734 61.722 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +7068,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 157.48 97.79 0)
+			(at 157.48 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7077,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/84181/tcmt4100.pdf"
-			(at 157.48 91.44 0)
+			(at 157.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7086,7 +7087,7 @@
 			)
 		)
 		(property "Description" "Quad Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS), SOP-16"
-			(at 157.48 90.17 0)
+			(at 157.48 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7220,7 +7221,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 87.63 270)
+		(at 189.23 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7228,7 +7229,7 @@
 		(dnp no)
 		(uuid "cb8c9ef1-659e-431f-abd6-77377cdfc651")
 		(property "Reference" "R50"
-			(at 184.404 86.36 90)
+			(at 184.404 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7236,7 +7237,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 194.056 86.36 90)
+			(at 194.056 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7244,7 +7245,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.23 85.852 90)
+			(at 189.23 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7253,7 +7254,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 87.63 0)
+			(at 189.23 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +7263,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 87.63 0)
+			(at 189.23 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7620,7 +7621,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:TCMT4100")
-		(at 157.48 67.31 0)
+		(at 157.48 90.17 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7628,7 +7629,7 @@
 		(dnp no)
 		(uuid "db8e9115-8ad6-4c16-8f8e-bce5002d92f1")
 		(property "Reference" "U4"
-			(at 165.1 66.548 0)
+			(at 165.1 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7637,7 @@
 			)
 		)
 		(property "Value" "TCMT4100"
-			(at 157.48 60.96 0)
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7645,7 +7646,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-16_4.4x10.4mm_P1.27mm"
-			(at 157.48 74.93 0)
+			(at 157.48 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +7655,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/84181/tcmt4100.pdf"
-			(at 157.48 68.58 0)
+			(at 157.48 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,7 +7665,7 @@
 			)
 		)
 		(property "Description" "Quad Optocoupler, Vce 70V, CTR 50-600%, Viso 3750V (RMS), SOP-16"
-			(at 157.48 67.31 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7865,7 +7866,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 72.39 270)
+		(at 189.23 80.01 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7873,7 +7874,7 @@
 		(dnp no)
 		(uuid "e4acfcc1-7e90-4c27-a26c-9fdb7659d987")
 		(property "Reference" "R52"
-			(at 184.404 71.12 90)
+			(at 184.404 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,7 +7882,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 194.056 71.12 90)
+			(at 194.056 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +7890,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.23 70.612 90)
+			(at 189.23 78.232 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +7899,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 72.39 0)
+			(at 189.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7907,7 +7908,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 189.23 72.39 0)
+			(at 189.23 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

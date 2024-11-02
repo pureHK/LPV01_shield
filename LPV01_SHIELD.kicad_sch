@@ -165,193 +165,6 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Screw_Terminal_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "screw terminal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TerminalBlock*:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Screw_Terminal_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -4393,12 +4206,6 @@
 		(uuid "1282e7e2-d4d6-4067-aeea-e3c8fb9f643e")
 	)
 	(junction
-		(at 63.5 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1aae0db7-425f-4459-9e4e-73f248729f03")
-	)
-	(junction
 		(at 234.95 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4493,6 +4300,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9eec7b38-b68a-4f4a-b65e-3877a5b94633")
+	)
+	(junction
+		(at 63.5 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f91d457-4e2c-4445-86c4-4640e49958db")
 	)
 	(junction
 		(at 66.04 30.48)
@@ -4632,6 +4445,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 137.16) (xy 63.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06aa338c-4f3d-4df4-b0b6-66fe328f647b")
+	)
+	(wire
+		(pts
 			(xy 29.21 158.75) (xy 31.75 158.75)
 		)
 		(stroke
@@ -4649,16 +4472,6 @@
 			(type default)
 		)
 		(uuid "0791b040-de51-401c-b51c-20cf5d3fa813")
-	)
-	(wire
-		(pts
-			(xy 63.5 161.29) (xy 64.77 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07e2b76c-042a-4e50-bfc2-f5855c3479f6")
 	)
 	(wire
 		(pts
@@ -4799,16 +4612,6 @@
 			(type default)
 		)
 		(uuid "16631928-f78b-4664-a90c-731041c18dab")
-	)
-	(wire
-		(pts
-			(xy 64.77 163.83) (xy 63.5 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17027721-45f8-4fbf-9cf2-34ead14fd9df")
 	)
 	(wire
 		(pts
@@ -5419,16 +5222,6 @@
 			(type default)
 		)
 		(uuid "58255206-80f4-4353-828a-ecf3ea97637d")
-	)
-	(wire
-		(pts
-			(xy 63.5 158.75) (xy 63.5 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5877edef-8660-4f66-820e-cc457a493aa1")
 	)
 	(wire
 		(pts
@@ -6312,7 +6105,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 139.7) (xy 63.5 138.43)
+			(xy 63.5 139.7) (xy 63.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6822,6 +6615,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 137.16) (xy 64.77 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb51d9d-63eb-44a4-a414-b845fbdd74de")
+	)
+	(wire
+		(pts
 			(xy 120.65 168.91) (xy 123.19 168.91)
 		)
 		(stroke
@@ -6859,16 +6662,6 @@
 			(type default)
 		)
 		(uuid "e556fb35-b109-4a89-ae04-c55ead134abb")
-	)
-	(wire
-		(pts
-			(xy 63.5 161.29) (xy 63.5 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e56395bf-bd94-45b7-abbe-8366737cc772")
 	)
 	(wire
 		(pts
@@ -10552,7 +10345,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3bd195d9-55e7-4e1e-8360-6f778cf7b29a")
 		(property "Reference" "#PWR0117"
 			(at 59.69 138.43 0)
@@ -10564,7 +10356,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 59.69 129.54 0)
+			(at 58.674 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10969,7 +10761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49f67a81-0e3f-4380-b275-3207e508f846")
-		(property "Reference" "H4"
+		(property "Reference" "H2"
 			(at 156.21 185.4199 0)
 			(effects
 				(font
@@ -11017,7 +10809,7 @@
 		(instances
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -11083,70 +10875,6 @@
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 153.67 171.45 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51d049b7-370e-47fc-8766-4b8d3f61609a")
-		(property "Reference" "H1"
-			(at 156.21 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 156.21 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 153.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 153.67 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LPV01_SHIELD"
-				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -11565,7 +11293,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62c35b73-6bc3-427b-8a13-c2fb38944489")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 38.1 185.674 0)
 			(effects
 				(font
@@ -11618,73 +11346,6 @@
 		)
 		(pin "3"
 			(uuid "2eb26750-5b0a-4082-b15a-b637fa1c5042")
-		)
-		(instances
-			(project "LPV01_SHIELD"
-				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 69.85 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63d5a511-122e-4888-89a4-d167fb7daf39")
-		(property "Reference" "J6"
-			(at 69.85 166.878 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Relay_PWR"
-			(at 70.104 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 69.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a2ce1175-b19a-43c1-8108-23f58481ea0f")
-		)
-		(pin "1"
-			(uuid "37c486bd-c503-46be-9cd4-4fd983b33352")
 		)
 		(instances
 			(project "LPV01_SHIELD"
@@ -11896,72 +11557,6 @@
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 63.5 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68bd0a78-2ba8-4cf7-b4c3-cdf06b300afe")
-		(property "Reference" "#PWR0104"
-			(at 63.5 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VR"
-			(at 63.5 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ce5eb08-6cdc-476b-94b2-2b38fef3e075")
-		)
-		(instances
-			(project "LPV01_SHIELD"
-				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
-					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -12644,7 +12239,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 63.5 138.43 0)
+		(at 63.5 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12653,7 +12248,7 @@
 		(fields_autoplaced yes)
 		(uuid "75207e4a-47b7-4945-9bdb-07564ae57584")
 		(property "Reference" "#PWR0118"
-			(at 63.5 142.24 0)
+			(at 63.5 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12662,7 +12257,7 @@
 			)
 		)
 		(property "Value" "VR"
-			(at 63.5 133.35 0)
+			(at 63.5 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,7 +12265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 138.43 0)
+			(at 63.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12679,7 +12274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 138.43 0)
+			(at 63.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,7 +12283,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 63.5 138.43 0)
+			(at 63.5 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13261,6 +12856,78 @@
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 69.85 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "822ae1af-f773-49eb-8333-f320537f5525")
+		(property "Reference" "J4"
+			(at 68.58 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Wiegand"
+			(at 66.802 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 69.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 69.85 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc2c4ec2-4d01-4689-ad29-75f9a9268997")
+		)
+		(pin "2"
+			(uuid "084f3433-c417-4e33-bee5-f27762588a04")
+		)
+		(pin "3"
+			(uuid "a7bc0895-f9ae-48c5-937c-8e06f46541b1")
+		)
+		(instances
+			(project "LPV01_SHIELD"
+				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14795,70 +14462,6 @@
 			(project ""
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 153.67 176.53 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b136d243-d2d2-448d-b258-cf971b9a2cfc")
-		(property "Reference" "H2"
-			(at 156.21 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 156.21 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965"
-			(at 153.67 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 153.67 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "LPV01_SHIELD"
-				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
-					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -16482,7 +16085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed0ed32a-6849-45f7-b35f-5e5237f85a1c")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 156.21 180.3399 0)
 			(effects
 				(font
@@ -16530,7 +16133,7 @@
 		(instances
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -16971,73 +16574,6 @@
 			(project "LPV01_SHIELD"
 				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
 					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 69.85 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fb0b54f9-ae85-40aa-be68-66868ff6231c")
-		(property "Reference" "J4"
-			(at 69.85 145.288 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Relay_PWR_in"
-			(at 72.39 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 69.85 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 69.85 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a869ca76-6d89-4ce6-a560-865190939602")
-		)
-		(pin "1"
-			(uuid "4db51c16-9162-4356-b327-5dca22eb02a2")
-		)
-		(instances
-			(project "LPV01_SHIELD"
-				(path "/235a657c-2000-4f74-9092-d8e0f0a5ea32"
-					(reference "J4")
 					(unit 1)
 				)
 			)

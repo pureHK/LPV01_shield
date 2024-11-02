@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 5.6,
-          "width": 5.6
+          "drill": 1.152,
+          "height": 1.3,
+          "width": 1.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -127,10 +127,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.4,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -183,8 +183,7 @@
         0.25,
         0.3,
         0.4,
-        0.5,
-        0.7
+        0.5
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -218,28 +217,24 @@
           "drill": 0.0
         },
         {
+          "diameter": 0.4,
+          "drill": 0.2
+        },
+        {
           "diameter": 0.5,
-          "drill": 0.25
+          "drill": 0.2
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.2
         },
         {
           "diameter": 0.6,
           "drill": 0.3
         },
         {
-          "diameter": 0.7,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.7,
-          "drill": 0.4
-        },
-        {
           "diameter": 0.8,
           "drill": 0.4
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -474,7 +469,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "LPV01_SHIELD.kicad_pro",
+    "filename": "DCDC_converter.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -508,19 +503,19 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "../../../../../../../Projektowanie/KiCad/8.0/",
-      "plot": "",
-      "pos_files": "",
+      "netlist": "",
+      "plot": "DCtoDC_panel/",
+      "pos_files": "DCtoDC_panel/",
       "specctra_dsn": "",
       "step": "",
-      "svg": "C:/Users/Hubert/Desktop/",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "DCDC_converter.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -542,7 +537,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -551,7 +546,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -563,13 +558,13 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -585,7 +580,7 @@
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -631,16 +626,8 @@
   },
   "sheets": [
     [
-      "235a657c-2000-4f74-9092-d8e0f0a5ea32",
+      "ace81164-188f-43a4-8ebe-64248f08801c",
       "Główny"
-    ],
-    [
-      "fc921787-1277-4955-a87e-3e5ed7e3fd60",
-      "Inputs"
-    ],
-    [
-      "99d81570-47cc-4de8-bd02-58f2b6ea1aca",
-      "Power_distribution"
     ]
   ],
   "text_variables": {}
